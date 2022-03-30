@@ -17,7 +17,7 @@ def time2():
         rand = random.uniform(0, 20)
         total += 20 - rand
     average = total/n
-    print(str("%.2f"%average) + " วินาที")
+    print(str("%.2f"%average) + " นาที")
     
 def time3():
     n = int(input())
@@ -51,4 +51,9 @@ def time4():
             w = 140 - rand
         total += w
     average = total/n
-    print(str("%.2f"%average) + " วินาที")
+    print(str("%.2f"%average) + " นาที")
+
+time1()
+time2()
+time3()
+time4()
